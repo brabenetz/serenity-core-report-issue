@@ -1,0 +1,69 @@
+{
+    "name": "An actor interacts with a web page",
+    "title": "An actor interacts with a web page",
+    "id": "super-calculator;an-actor-interacts-with-a-web-page;chrome-80-0-3987-149;windows",
+    "manual": false,
+    "testSteps": [
+        {
+            "number": 1,
+            "description": "Given Hello World",
+            "startTime": 1587727375723,
+            "children": [],
+            "reportData": [],
+            "screenshots": [],
+            "result": "SUCCESS",
+            "duration": 450
+        }
+    ],
+    "userStory": {
+        "id": "super-calculator",
+        "storyName": "Super Calculator",
+        "path": "features/super_calculator.feature",
+        "type": "feature",
+        "narrative": "In order to learn how to use Serenity/JS with Cucumber and Protractor\nAs a Curious Developer\nI'd like to see an example"
+    },
+    "startTime": 1587727375715,
+    "testSource": "Cucumber",
+    "tags": [
+        {
+            "name": "Super Calculator",
+            "type": "feature",
+            "displayName": "Super Calculator"
+        },
+        {
+            "name": "189",
+            "type": "issue",
+            "displayName": "189"
+        },
+        {
+            "name": "chrome 80.0.3987.149",
+            "type": "browser",
+            "browserName": "chrome",
+            "browserVersion": "80.0.3987.149",
+            "displayName": "chrome 80.0.3987.149"
+        },
+        {
+            "name": "Windows",
+            "type": "platform",
+            "platformName": "Windows",
+            "platformVersion": "",
+            "displayName": "Windows"
+        }
+    ],
+    "featureTag": {
+        "name": "Super Calculator",
+        "type": "feature",
+        "displayName": "Super Calculator"
+    },
+    "description": "The [\"Super Calculator\"](https://juliemr.github.io/protractor-demo/) was developed by Julie Ralph,\nthe author of Protractor, to demonstrate what Protractor is capable of.\n\nBy the way, did you notice that with **Serenity/JS** you can use [Markdown](https://en.wikipedia.org/wiki/Markdown)\nto better describe each `Feature` and `Scenario`?",
+    "issues": [
+        "#189"
+    ],
+    "additionalIssues": [
+        "#189"
+    ],
+    "context": "chrome,Windows",
+    "driver": "chrome",
+    "duration": 4214,
+    "result": "SUCCESS"
+}

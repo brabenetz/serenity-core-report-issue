@@ -1,0 +1,244 @@
+{
+    "name": "An actor interacts with a web page",
+    "title": "An actor interacts with a web page",
+    "id": "super-calculator;an-actor-interacts-with-a-web-page;chrome-80-0-3987-149;windows",
+    "manual": false,
+    "testSteps": [
+        {
+            "number": 1,
+            "description": "Given Callie decides to use the Super Calculator",
+            "startTime": 1587727375723,
+            "children": [
+                {
+                    "number": 2,
+                    "description": "Callie navigates to '/protractor-demo/'",
+                    "startTime": 1587727375726,
+                    "children": [],
+                    "reportData": [],
+                    "screenshots": [
+                        {
+                            "screenshot": "photo-windows-chrome-80.0.3987.149-callie-navigates-to-protractor-demo-70d890a7ed.png"
+                        }
+                    ],
+                    "result": "SUCCESS",
+                    "duration": 444
+                }
+            ],
+            "reportData": [],
+            "screenshots": [],
+            "result": "SUCCESS",
+            "duration": 450
+        },
+        {
+            "number": 3,
+            "description": "When she adds 19 and 23",
+            "startTime": 1587727376174,
+            "children": [
+                {
+                    "number": 4,
+                    "description": "Callie enters a left operand of 19",
+                    "startTime": 1587727376175,
+                    "children": [
+                        {
+                            "number": 5,
+                            "description": "Callie enters 19 into the left operand input",
+                            "startTime": 1587727376176,
+                            "children": [],
+                            "reportData": [],
+                            "screenshots": [
+                                {
+                                    "screenshot": "photo-windows-chrome-80.0.3987.149-callie-enters-19-into-the-left-operand-input-8e5152861c.png"
+                                }
+                            ],
+                            "result": "SUCCESS",
+                            "duration": 397
+                        }
+                    ],
+                    "reportData": [],
+                    "screenshots": [],
+                    "result": "SUCCESS",
+                    "duration": 399
+                },
+                {
+                    "number": 6,
+                    "description": "Callie selects the + operator",
+                    "startTime": 1587727376575,
+                    "children": [],
+                    "reportData": [],
+                    "screenshots": [
+                        {
+                            "screenshot": "photo-windows-chrome-80.0.3987.149-callie-selects-the-+-operator-1c99c70f2f.png"
+                        }
+                    ],
+                    "result": "SUCCESS",
+                    "duration": 350
+                },
+                {
+                    "number": 7,
+                    "description": "Callie enters a right operand of 23",
+                    "startTime": 1587727376926,
+                    "children": [
+                        {
+                            "number": 8,
+                            "description": "Callie enters 23 into the right operand input",
+                            "startTime": 1587727376926,
+                            "children": [],
+                            "reportData": [],
+                            "screenshots": [
+                                {
+                                    "screenshot": "photo-windows-chrome-80.0.3987.149-callie-enters-23-into-the-right-operand-input-581886853b.png"
+                                }
+                            ],
+                            "result": "SUCCESS",
+                            "duration": 396
+                        }
+                    ],
+                    "reportData": [],
+                    "screenshots": [],
+                    "result": "SUCCESS",
+                    "duration": 398
+                },
+                {
+                    "number": 9,
+                    "description": "Callie confirms calculation",
+                    "startTime": 1587727377325,
+                    "children": [
+                        {
+                            "number": 10,
+                            "description": "Callie clicks on the \"Go\" button",
+                            "startTime": 1587727377325,
+                            "children": [],
+                            "reportData": [],
+                            "screenshots": [
+                                {
+                                    "screenshot": "photo-windows-chrome-80.0.3987.149-callie-clicks-on-the-go-button-13b22e9de4.png"
+                                }
+                            ],
+                            "result": "SUCCESS",
+                            "duration": 392
+                        }
+                    ],
+                    "reportData": [],
+                    "screenshots": [],
+                    "result": "SUCCESS",
+                    "duration": 393
+                }
+            ],
+            "reportData": [],
+            "screenshots": [],
+            "result": "SUCCESS",
+            "duration": 1546
+        },
+        {
+            "number": 11,
+            "description": "Then she should see that the result is 42",
+            "startTime": 1587727377720,
+            "children": [
+                {
+                    "number": 12,
+                    "description": "Callie ensures that the text of the result does equal '42'",
+                    "startTime": 1587727377722,
+                    "children": [],
+                    "reportData": [],
+                    "screenshots": [
+                        {
+                            "screenshot": "photo-windows-chrome-80.0.3987.149-callie-ensures-that-the-text-of-the-result-does-equal-42-b32b006807.png"
+                        }
+                    ],
+                    "result": "SUCCESS",
+                    "duration": 1895
+                }
+            ],
+            "reportData": [],
+            "screenshots": [],
+            "result": "SUCCESS",
+            "duration": 1899
+        }
+    ],
+    "userStory": {
+        "id": "super-calculator",
+        "storyName": "Super Calculator",
+        "path": "features/super_calculator.feature",
+        "type": "feature",
+        "narrative": "In order to learn how to use Serenity/JS with Cucumber and Protractor\nAs a Curious Developer\nI'd like to see an example"
+    },
+    "startTime": 1587727375715,
+    "testSource": "Cucumber",
+    "tags": [
+        {
+            "name": "Super Calculator",
+            "type": "feature",
+            "displayName": "Super Calculator"
+        },
+        {
+            "name": "X189",
+            "type": "issue",
+            "displayName": "X189"
+        },
+        {
+            "name": "Y189",
+            "type": "issue",
+            "displayName": "Y189"
+        },
+        {
+            "name": "Z189",
+            "type": "issue",
+            "displayName": "Z189"
+        },
+        {
+            "name": "A189",
+            "type": "issue",
+            "displayName": "A189"
+        },
+        {
+            "name": "#-189",
+            "type": "issue",
+            "displayName": "#-189"
+        },
+        {
+            "name": "TEST-189",
+            "type": "issue",
+            "displayName": "TEST-189"
+        },
+        {
+            "name": "chrome 80.0.3987.149",
+            "type": "browser",
+            "browserName": "chrome",
+            "browserVersion": "80.0.3987.149",
+            "displayName": "chrome 80.0.3987.149"
+        },
+        {
+            "name": "Windows",
+            "type": "platform",
+            "platformName": "Windows",
+            "platformVersion": "",
+            "displayName": "Windows"
+        }
+    ],
+    "featureTag": {
+        "name": "Super Calculator",
+        "type": "feature",
+        "displayName": "Super Calculator"
+    },
+    "description": "The [\"Super Calculator\"](https://juliemr.github.io/protractor-demo/) was developed by Julie Ralph,\nthe author of Protractor, to demonstrate what Protractor is capable of.\n\nBy the way, did you notice that with **Serenity/JS** you can use [Markdown](https://en.wikipedia.org/wiki/Markdown)\nto better describe each `Feature` and `Scenario`?",
+    "issues": [
+        "X189",
+        "Y189",
+        "Z189",
+        "A189",
+        "#-189",
+        "TEST-189"
+    ],
+    "additionalIssues": [
+        "X189",
+        "Y189",
+        "Z189",
+        "A189",
+        "#-189",
+        "TEST-189"
+    ],
+    "context": "chrome,Windows",
+    "driver": "chrome",
+    "duration": 4214,
+    "result": "SUCCESS"
+}
