@@ -1,6 +1,7 @@
 # Serenity Core Report Issue
 
 This is a small example project to solve a serenity issue fast.
+The Issue: https://github.com/serenity-bdd/serenity-core/issues/2049
 
 ## The Problem:
 
